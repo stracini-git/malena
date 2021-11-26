@@ -1,1 +1,3 @@
-_Our contribution is under double-blind review for an international conference and is to be uploaded around the middle of November. We kindly ask the Reviewer to revisit this site 10 days before end of November, thank you._
+# Bit-wise Training of Neural Network Weights
+
+Trainer.py runs the main code. It trains LeNet on MNIST (also ResNet20 and Conv6) with bit-depth 6. Trainable bits are the first 3 most significant one. The following are untrainable.
